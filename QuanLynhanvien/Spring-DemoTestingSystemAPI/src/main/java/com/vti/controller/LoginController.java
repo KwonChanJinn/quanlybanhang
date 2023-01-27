@@ -63,7 +63,7 @@ public class LoginController {
 				.signWith(SignatureAlgorithm.HS512, "supersecret")
 				.compact();
 
-		return new ResponseEntity<>("Bearer " + token, HttpStatus.OK);
+		return new ResponseEntity<>(token, HttpStatus.OK);
 	}
 
 }

@@ -80,10 +80,23 @@
       <workItem from="1674699075239" duration="7161000" />
       <workItem from="1674706368330" duration="8325000" />
       <workItem from="1674748836363" duration="307000" />
+      <workItem from="1674824355101" duration="791000" />
+      <workItem from="1674832148952" duration="4481000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/vti/controller/LoginController.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
