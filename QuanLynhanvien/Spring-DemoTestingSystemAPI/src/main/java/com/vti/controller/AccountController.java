@@ -67,7 +67,7 @@ public class AccountController {
     }
 
     // getByID
-    @GetMapping("/{id}")
+    @GetMapping("/id/{id}")
     public ResponseEntity<?> getAllAccountByID(@PathVariable(name = "id") short id) {
         Account account = accountService.getAllAccountByID(id);
         AccountDTO accountDTO = mapper.map(account, AccountDTO.class);
@@ -90,7 +90,7 @@ public class AccountController {
     }
 
     // deleteByID
-    @DeleteMapping("{id}")
+    @DeleteMapping("id/{id}")
     public ResponseEntity<?> deleteAccountByID(@PathVariable(name = "id") Short id) {
         accountService.deleteAccountByID(id);
         return new ResponseEntity<>("delete succes", HttpStatus.OK);
@@ -104,7 +104,6 @@ public class AccountController {
         account.setPosition(positionService.getPositionByID(accountFormForCreating.getPositionId()));
         account.setPassword(passwordEncoder.encode("123456"));
         accountService.createAccout(account);
-
         return new ResponseEntity<>("create succes", HttpStatus.OK);
     }
 
@@ -127,7 +126,6 @@ public class AccountController {
         account.setPosition(positionService.getPositionByID(form.getPositionId()));
         account.setPassword(passwordEncoder.encode(form.getPassword()));
         accountService.createAccout(account);
-
         return new ResponseEntity<>("register succes", HttpStatus.OK);
     }
 

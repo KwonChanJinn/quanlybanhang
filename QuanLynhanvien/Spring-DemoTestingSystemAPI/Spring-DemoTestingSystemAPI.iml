@@ -29,7 +29,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="Hibernate" />
         <datasource-mapping>
-          <factory-entry name="Spring-DemoTestingSystemAPI" />
+          <factory-entry name="Spring-DemoTestingSystemAPI" value="e8467872-38ac-4bb5-bfd1-9150b16653c8" />
         </datasource-mapping>
         <naming-strategy-map />
       </configuration>

@@ -14,8 +14,18 @@ public class AccountFormForRegister {
 
 	private String password;
 
+	private String role;
+
 	public AccountFormForRegister() {
 		// TODO Auto-generated constructor stub
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
 	}
 
 	public String getEmail() {
@@ -66,4 +76,7 @@ public class AccountFormForRegister {
 		this.password = password;
 	}
 
+	public AccountFormForRegister(String role) {
+		this.role = role;
+	}
 }

@@ -26,11 +26,11 @@ import com.vti.service.IService.IAccountService;
 @CrossOrigin("*")
 public class LoginController {
 
-	@Autowired
-	private ModelMapper mapper;
+    @Autowired
+    private ModelMapper mapper;
 
-	@Autowired
-	private IAccountService accountService;
+    @Autowired
+    private IAccountService accountService;
 //
 //	@GetMapping()
 //	public ResponseEntity<?> login(Principal principal) {
@@ -46,24 +46,24 @@ public class LoginController {
 //
 //	}
 
-	@Autowired
-	private AuthenticationManager authenticationManager;
+    @Autowired
+    private AuthenticationManager authenticationManager;
 
-	@PostMapping()
-	public ResponseEntity<?> getAll(@RequestBody FormLogin form) {
-		Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(form.getUsername(), form.getPassword()));
+    @PostMapping()
+    public ResponseEntity<?> getAll(@RequestBody FormLogin form) {
+        Authentication authentication = authenticationManager.authenticate(new UsernamePasswordAuthenticationToken(form.getUsername(), form.getPassword()));
 
-		Map<String, Object> claims = new HashMap<>();
+        Map<String, Object> claims = new HashMap<>();
 
-		String token = Jwts.builder()
-				.setClaims(claims)
-				.setSubject(form.getUsername())
-				.setIssuedAt(new Date(System.currentTimeMillis()))
-				.setExpiration(new Date(System.currentTimeMillis() + 60 * 1000))
-				.signWith(SignatureAlgorithm.HS512, "supersecret")
-				.compact();
+        String token = Jwts.builder()
+                .setClaims(claims)
+                .setSubject(form.getUsername())
+                .setIssuedAt(new Date(System.currentTimeMillis()))
+                .setExpiration(new Date(System.currentTimeMillis() + 600 * 1000))
+                .signWith(SignatureAlgorithm.HS512, "supersecret")
+                .compact();
 
-		return new ResponseEntity<>(token, HttpStatus.OK);
-	}
+        return new ResponseEntity<>(token, HttpStatus.OK);
+    }
 
 }

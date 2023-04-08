@@ -40,18 +40,19 @@ public class AccoutService implements IAccountService {
 
     @Override
     public Account getAllAccountByID(short id) {
-        return accountRepository.getById(id);
+        return null;
     }
 
     @Override
     public Account getAccountByUsername(String name) {
-        return accountRepository.findByUserName(name);
+        return null;
     }
 
     @Override
     public void deleteAccountByID(Short id) {
-        accountRepository.deleteById(id);
+
     }
+
 
     @Override
     public void createAccout(Account account) {

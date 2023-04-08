@@ -1,0 +1,43 @@
+.bt {
+    color: black;
+}
+
+.btn {
+    margin-left: 50x;
+}
+.links {
+    margin-left: 26px;
+    text-decoration: dashed;
+    font-size: 1.4rem;
+    text-align: center;
+    display: inline-block;
+}
+.modal-dialog {
+    border-radius: 10px;
+    height: 82%;
+    background-color: beige;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.formID1 {
+    margin-top: 30px;
+    height: 85%;
+    width: 81%;
+    margin-left: 10%;
+}
+.form-control {
+}
+.lenged {
+    text-align: center;
+    font-weight: bolder;
+    color: blueviolet;
+    border-bottom: 3px saddlebrown solid;
+}
+.form-group {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.button-check {
+    margin-left: 50px;
+}

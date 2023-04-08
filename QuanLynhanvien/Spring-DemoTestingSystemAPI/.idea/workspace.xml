@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d5b826a6-f883-402f-8358-4b4b4788d5e7" name="Changes" comment="" />
+    <list default="true" id="d5b826a6-f883-402f-8358-4b4b4788d5e7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Spring-DemoTestingSystemAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring-DemoTestingSystemAPI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/config/security/WebSecutiryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/config/security/WebSecutiryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/controller/AccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/form/AccountFormForRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/form/AccountFormForRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/vti/service/AccoutService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/vti/service/AccoutService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vti/config/security/WebSecutiryConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vti/config/security/WebSecutiryConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vti/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vti/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vti/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vti/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vti/form/AccountFormForRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vti/form/AccountFormForRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/vti/service/AccoutService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/vti/service/AccoutService.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -34,6 +50,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2Knw9HdUXgkgU1hHMlgrkAkkVZS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -46,9 +63,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/OneDrive/Máy tính/New folder/Tn_Java_Advance_19_25_Jwt_2/Tn_Java_Advance_19_25_Jwt_2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../rocket28/demo_05_02_Crud" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.JAVA" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -82,21 +99,48 @@
       <workItem from="1674748836363" duration="307000" />
       <workItem from="1674824355101" duration="791000" />
       <workItem from="1674832148952" duration="4481000" />
+      <workItem from="1675433710711" duration="69000" />
+      <workItem from="1675433803695" duration="204000" />
+      <workItem from="1675490831936" duration="29000" />
+      <workItem from="1675530441155" duration="656000" />
+      <workItem from="1677053460814" duration="634000" />
+      <workItem from="1677153810195" duration="95000" />
+      <workItem from="1677159326982" duration="30000" />
+      <workItem from="1677159380728" duration="3000" />
+      <workItem from="1677340901335" duration="1000" />
+      <workItem from="1677347475167" duration="618000" />
+      <workItem from="1677504662431" duration="131000" />
+      <workItem from="1677504815560" duration="73000" />
+      <workItem from="1678029393734" duration="2028000" />
+      <workItem from="1678186776050" duration="86000" />
+      <workItem from="1678207417397" duration="658000" />
+      <workItem from="1678251637531" duration="7398000" />
+      <workItem from="1678267655690" duration="16000" />
+      <workItem from="1678276876153" duration="840000" />
+      <workItem from="1678278926871" duration="1502000" />
+      <workItem from="1678520298364" duration="6000" />
+      <workItem from="1678691288768" duration="242000" />
+      <workItem from="1678712208566" duration="970000" />
+      <workItem from="1678713507544" duration="259000" />
+      <workItem from="1678713795724" duration="81000" />
+      <workItem from="1678887320014" duration="1390000" />
+      <workItem from="1679208954436" duration="763000" />
+      <workItem from="1679229143561" duration="740000" />
+      <workItem from="1679733422961" duration="606000" />
+      <workItem from="1679907812428" duration="85000" />
+      <workItem from="1679927317735" duration="72000" />
+      <workItem from="1679989657600" duration="23000" />
+      <workItem from="1679990358344" duration="272000" />
+      <workItem from="1680250133542" duration="2212000" />
+      <workItem from="1680539969937" duration="258000" />
+      <workItem from="1680592405578" duration="708000" />
+      <workItem from="1680601435181" duration="53000" />
+      <workItem from="1680602437136" duration="1435000" />
+      <workItem from="1680672634817" duration="436000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/vti/controller/LoginController.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

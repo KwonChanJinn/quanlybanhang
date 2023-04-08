@@ -41,14 +41,19 @@ public class WebSecutiryConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
+
         http
                 .csrf().disable()
                 .authorizeRequests()
                 //          .antMatchers("/").permitAll()
-                .antMatchers("/api/v1/account/**","api/v1/department/**","api/v1/position/**").hasAuthority("ADMIN")
+                .antMatchers("/api/v1/account/register/**").permitAll()
+                .antMatchers( "/api/v1/account/**",
+                        "api/v1/department/**", "api/v1/position/**").hasAuthority("ADMIN")
+                //con fig lại link này
+
                 .antMatchers("/api/v1/login").permitAll()
-                .anyRequest().authenticated()
-                .and()
+
+                .and().cors().and().httpBasic().and().csrf().disable()
                 .httpBasic()
                 .and()
                 .sessionManagement()
